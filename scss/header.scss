@@ -1,0 +1,47 @@
+header {
+  padding-top: 20px;
+  width: 100%;
+  height: 10vh;
+  .container {
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h1 {
+        font-size: 26px;
+        cursor: default;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-weight: bold;
+        cursor: pointer;
+        text-transform: capitalize;
+      }
+      ul li {
+        padding-left: 20px;
+      }
+      ul li a {
+        text-decoration: none;
+      }
+      ul li a {
+        text-decoration: none;
+      }
+      ul li input {
+        background-color: #e8991d;
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 20px;
+        width: 100px;
+        color: white;
+      }
+      ul li input:hover {
+        box-shadow: 0 0 10px black;
+        text-shadow: 0 0 5px black;
+      }
+    }
+  }
+}
